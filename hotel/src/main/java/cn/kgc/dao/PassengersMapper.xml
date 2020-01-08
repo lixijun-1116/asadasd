@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper  PUBLIC
+        "-//mybatis.org//DTD Mapper 3.0//EN"  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.kgc.dao.PassengersMapper">
+    <resultMap id="passengersMap" type="Passengers">
+        <id column="id" property="id"/>
+    </resultMap>
+    <!--根据用户id查询所有常用联系人-->
+    <select id="selectAllPassengersByUid" resultMap="passengersMap">
+        select * from passengers where uId=#{uId}
+    </select>
+
+    <!--添加常用联系人-->
+    <insert id="insertPassengers" parameterType="Passengers">
+        INSERT INTO `passengers` (`realName`,`phone`,`IDNumber`,`uId`) VALUES
+        (#{realName},#{phone},#{IDNumber},#{uId})
+    </insert>
+
+    <!--根据id修改常用联系人信息-->
+    <update id="updatePassengersById" parameterType="Passengers">
+        UPDATE `passengers` SET `realName` = #{realName},`phone` = #{phone},`IDNumber` = #{IDNumber} WHERE `id` = #{id}
+    </update>
+
+    <!--删除常用联系人信息-->
+    <delete id="deletePassengersById" parameterType="Integer">
+        DELETE FROM `passengers` WHERE `id` = #{id}
+    </delete>
+</mapper>

@@ -1,0 +1,5 @@
+cn\kgc\controller\TestController.class
+cn\kgc\utlis\RedisConfig.class
+cn\kgc\DemoRedisApplication.class
+cn\kgc\utlis\RedisUtils$1.class
+cn\kgc\utlis\RedisUtils.class
