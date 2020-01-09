@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="09c01678-e77d-4f97-b344-5b8532cf7854" name="Default Changelist" comment="" />
+    <list default="true" id="09c01678-e77d-4f97-b344-5b8532cf7854" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-redis/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/demo-redis/src/main/resources/application.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,6 +35,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="E:\ideaworkspace2\lx\.idea" />
+      </set>
+    </option>
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -41,6 +52,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1Tv4aFWbeS7D7wkZImc2Mi2tlU1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -52,6 +64,7 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -74,7 +87,7 @@
       <recent name="E:\ideaworkspace2\lx\hotel\src\main\java\cn\kgc" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.DemoLoginApplication">
+  <component name="RunManager" selected="Spring Boot.DemoRedisApplication">
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.kgc.quartz.Test" />
       <module name="demo-login" />
@@ -109,7 +122,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoRedisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="DemoRedisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
       <module name="demo-redis" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="cn.kgc.DemoRedisApplication" />
       <method v="2">
@@ -189,6 +202,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.DemoRedisApplication" />
         <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
@@ -233,12 +247,25 @@
       <workItem from="1578359872185" duration="6890000" />
       <workItem from="1578443222725" duration="14325000" />
       <workItem from="1578487832853" duration="291000" />
-      <workItem from="1578492325236" duration="74000" />
+      <workItem from="1578492325236" duration="1111000" />
+      <workItem from="1578529389734" duration="2737000" />
     </task>
+    <task id="LOCAL-00001" summary="第一次提交">
+      <created>1578493245223</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1578493245223</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="第一次提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="第一次提交" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="182" key="#Inspections" timestamp="1578052370915">
@@ -253,47 +280,55 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="877" y="217" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1578452616416" />
-    <state x="740" y="278" key="FileChooserDialogImpl" timestamp="1578492414309">
+    <state x="432" y="113" key="CommitChangelistDialog2" timestamp="1578493231283">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1578492414309" />
+    <state x="432" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1578493231283" />
+    <state x="740" y="278" key="FileChooserDialogImpl" timestamp="1578555057184">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1578555057184" />
     <state x="740" y="289" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1578446897884" />
-    <state width="1877" height="444" key="GridCell.Tab.0.bottom" timestamp="1578487065904">
+    <state width="1610" height="439" key="GridCell.Tab.0.bottom" timestamp="1578552107159">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="444" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578487065904" />
-    <state width="1877" height="444" key="GridCell.Tab.0.center" timestamp="1578487065904">
+    <state width="1610" height="439" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578552107159" />
+    <state width="1610" height="439" key="GridCell.Tab.0.center" timestamp="1578552107158">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="444" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578487065904" />
-    <state width="1877" height="444" key="GridCell.Tab.0.left" timestamp="1578487065904">
+    <state width="1610" height="439" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578552107158" />
+    <state width="1610" height="439" key="GridCell.Tab.0.left" timestamp="1578552107158">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="444" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578487065904" />
-    <state width="1877" height="444" key="GridCell.Tab.0.right" timestamp="1578487065904">
+    <state width="1610" height="439" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578552107158" />
+    <state width="1610" height="439" key="GridCell.Tab.0.right" timestamp="1578552107158">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="444" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578487065904" />
-    <state width="1877" height="444" key="GridCell.Tab.1.bottom" timestamp="1578487065904">
+    <state width="1610" height="439" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578552107158" />
+    <state width="1610" height="439" key="GridCell.Tab.1.bottom" timestamp="1578552107159">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="444" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578487065904" />
-    <state width="1877" height="444" key="GridCell.Tab.1.center" timestamp="1578487065904">
+    <state width="1610" height="439" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578552107159" />
+    <state width="1610" height="439" key="GridCell.Tab.1.center" timestamp="1578552107159">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="444" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578487065904" />
-    <state width="1877" height="444" key="GridCell.Tab.1.left" timestamp="1578487065904">
+    <state width="1610" height="439" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578552107159" />
+    <state width="1610" height="439" key="GridCell.Tab.1.left" timestamp="1578552107159">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="444" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578487065904" />
-    <state width="1877" height="444" key="GridCell.Tab.1.right" timestamp="1578487065904">
+    <state width="1610" height="439" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578552107159" />
+    <state width="1610" height="439" key="GridCell.Tab.1.right" timestamp="1578552107159">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="444" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578487065904" />
-    <state x="332" y="159" key="SettingsEditor" timestamp="1578492405322">
+    <state width="1610" height="439" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578552107159" />
+    <state x="332" y="159" key="SettingsEditor" timestamp="1578555083361">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="332" y="159" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1578492405322" />
+    <state x="332" y="159" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1578555083361" />
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1578493254143">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1578493254143" />
     <state x="1211" y="242" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1578281943795">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -306,5 +341,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="683" y="289" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1578462875709" />
+    <state x="787" y="318" key="svn.repositoryBrowser" timestamp="1578555067431">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="787" y="318" key="svn.repositoryBrowser/0.0.1920.1040@0.0.1920.1040" timestamp="1578555067431" />
   </component>
 </project>
