@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="09c01678-e77d-4f97-b344-5b8532cf7854" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-redis/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/demo-redis/target/classes/application.properties" afterDir="false" />
-    </list>
+    <list default="true" id="09c01678-e77d-4f97-b344-5b8532cf7854" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -247,7 +244,7 @@
       <workItem from="1578443222725" duration="14325000" />
       <workItem from="1578487832853" duration="291000" />
       <workItem from="1578492325236" duration="1111000" />
-      <workItem from="1578529389734" duration="3010000" />
+      <workItem from="1578529389734" duration="3252000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交">
       <created>1578493245223</created>
@@ -263,7 +260,28 @@
       <option name="project" value="LOCAL" />
       <updated>1578555299422</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="第一次提交">
+      <created>1578555462081</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1578555462081</updated>
+    </task>
+    <task id="LOCAL-00004" summary="第一次提交">
+      <created>1578555500716</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1578555500716</updated>
+    </task>
+    <task id="LOCAL-00005" summary="第一次提交">
+      <created>1578555593119</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1578555593119</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -286,10 +304,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="877" y="217" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1578452616416" />
-    <state x="432" y="113" key="CommitChangelistDialog2" timestamp="1578555499523">
+    <state x="432" y="113" key="CommitChangelistDialog2" timestamp="1578555591898">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="432" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1578555499523" />
+    <state x="432" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1578555591898" />
     <state x="740" y="278" key="FileChooserDialogImpl" timestamp="1578555561952">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -327,10 +345,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="273" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578555465459" />
-    <state x="332" y="159" key="SettingsEditor" timestamp="1578555083361">
+    <state x="332" y="159" key="SettingsEditor" timestamp="1578555632750">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="332" y="159" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1578555083361" />
+    <state x="332" y="159" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1578555632750" />
     <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1578493254143">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
