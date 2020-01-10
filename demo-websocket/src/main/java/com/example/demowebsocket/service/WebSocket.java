@@ -1,4 +1,4 @@
-package cn.kgc.service;
+package com.example.demowebsocket.service;
 
 import org.springframework.stereotype.Component;
 

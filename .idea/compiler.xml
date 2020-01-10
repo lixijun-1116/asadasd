@@ -6,11 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="demo-login" />
+        <module name="demo-websocket" />
         <module name="demo-redis02" />
         <module name="demo-redis01" />
         <module name="hotel" />
         <module name="demo-redis" />
-        <module name="demo-login" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -18,6 +19,7 @@
       <module name="demo-redis" target="1.8" />
       <module name="demo-redis01" target="1.8" />
       <module name="demo-redis02" target="1.8" />
+      <module name="demo-websocket" target="1.8" />
       <module name="hotel" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -27,6 +29,7 @@
       <module name="demo-redis" options="-parameters" />
       <module name="demo-redis01" options="-parameters" />
       <module name="demo-redis02" options="-parameters" />
+      <module name="demo-websocket" options="-parameters" />
       <module name="hotel" options="-parameters" />
     </option>
   </component>
