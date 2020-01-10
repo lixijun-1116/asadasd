@@ -12,11 +12,11 @@ public class WebSocket {
 
     private Session session;
 
-    private static CopyOnWriteArrayList<WebSocket> webSockets=new CopyOnWriteArrayList<>();
+    private static CopyOnWriteArrayList<WebSocket> webSockets = new CopyOnWriteArrayList<>();
 
     @OnOpen
     public void onOpen(Session session){
-        this.session=session;
+        this.session = session;
         webSockets.add(this);
         System.out.println("连上了一个，现在总共有："+webSockets.size()+"个连接");
     }
@@ -30,7 +30,7 @@ public class WebSocket {
     @OnMessage
     public void onMessage(String message){
 
-        for (WebSocket webSocket:webSockets){
+        for (WebSocket webSocket : webSockets){
             try {
                 webSocket.session.getBasicRemote().sendText(message);
             }catch (Exception e){
